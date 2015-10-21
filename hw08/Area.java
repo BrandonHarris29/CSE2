@@ -34,8 +34,8 @@ public class Area{
  System.out.println("Enter an approved shape in all lowercase letters");
  while(!correct){
      if(input.hasNext("circle")){ // looks for approved shape from input
-       correct=true; // if it finds it makes correct true as w
-       c=true;
+       correct=true; // if it finds it makes correct true as well
+       c=true; //it also makes c true 
     
      }
      else if (input.hasNext("triangle")){
@@ -55,7 +55,7 @@ public class Area{
      
          
  }
-  if(c==true){
+  if(c==true){ // circle inputs 
       double radius=0;
         
         System.out.println("Please enter your radius");
@@ -73,7 +73,7 @@ public class Area{
         
     }
   }
-  else if (r==true){
+  else if (r==true){ //rectancle inputs 
       double height=0;
       double width=0;
       System.out.println("Please enter your height");
